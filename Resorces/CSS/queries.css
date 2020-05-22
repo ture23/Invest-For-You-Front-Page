@@ -28,6 +28,9 @@
 	.work-step{ margin-bottom: 40px;}
 	work-step:last-of-type { margin-bottom: 60px;}
 	.app-screen {width: 50%;}
+    .testimonials {font-size: 14px}
+    .ion-leaf { font-size: 100%;   }
+    .section-testimonials .row h2 {margin-bottom: 0px;}
 }
 
 
@@ -73,6 +76,9 @@
 	.sticky .main-nav{/*formiranje i pozicioniranje*/ margin-top: 10px;}
 	.sticky .mobile-nav-icon i{color: black;}
 	.sticky .mobile-nav-icon {margin-top: 10px;}
+    .section-citys .row .col h3 {font-size: 14px;}
+    .btn-app img{ height: 40px;
+                width: 4opx;}
 
 }
 
@@ -108,7 +114,9 @@
 	.btn {width: 40%;}
 	.plan-box div a {width: 100%;
 	height: auto;}
-	
+    .js--scroll-to-plann { width: 20%}
+    .js--scroll-to-start { width: 35%}
+    
 }
 
 
