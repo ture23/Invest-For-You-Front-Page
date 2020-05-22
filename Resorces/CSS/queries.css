@@ -1,0 +1,126 @@
+
+
+/*from big tablet to 1200px(smaler than 1140px row*/
+@media only screen and (max-width: 1200px){
+	.hero-text-box{/* postavljane naslova sa dva gumba  na sredinu*/
+		width: 100%;
+		padding: 0 2%;
+	}
+	.row  {padding: 0 2%;}
+	
+}
+
+
+/*from small tablet to big tablet from 767px to 1023px*/
+@media only screen and (max-width: 1023px){
+	body {
+		font-size: 18px;}
+	sections { padding: 60px 0;}
+	.long-copy {
+	width: 80%;
+	margin-left: 10%;
+	}
+	.city-features{
+		font-size: 15px;
+	}
+	.steps-box { margin-top: 10px;}
+	.steps-box:last-child { margin-top: 10px;}
+	.work-step{ margin-bottom: 40px;}
+	work-step:last-of-type { margin-bottom: 60px;}
+	.app-screen {width: 50%;}
+}
+
+
+/*for all small phones to small tablest from 481px- 767px*/
+@media only screen and (max-width: 767px){
+	.city-features{
+		font-size: 72%;
+	}
+	.icon-small{width: 10px;}
+	.plan-box{width: 100%;}
+	.plan-price{font-size: 200%;}
+	.plan-box div ul li {
+		font-size: 70%;
+	}
+	.section-citys div:last-child {margin-bottom: 10px;}
+	 h2 { margin-top: 20px;}
+	.section-testimonials {height: 300%;}
+	.section-testimonials div {margin-bottom: 40px;}
+	
+	.mobile-nav-icon{
+	display: inline-block;
+	}
+	.main-nav{
+		float: left;
+		margin-top: 20px;
+		display: none;
+		
+	}
+	.main-nav li {
+		display: block;
+		
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+	.sticky .main-nav li a:link, 
+	.sticky .main-nav li a:visited{
+		padding: 10px 0; /* odvajanje donje linije od slova*/}
+	.sticky .main-nav{/*formiranje i pozicioniranje*/ margin-top: 10px;}
+	.sticky .mobile-nav-icon i{color: black;}
+	.sticky .mobile-nav-icon {margin-top: 10px;}
+
+}
+
+/*for small phones from 0-460px*/
+@media only screen and (max-width: 500px){
+	.city-features{
+		font-size: 10px;
+	}
+	.work-step div  {
+		font-size: 20px;
+		height: 30px;
+		width: 30px;
+		margin-right: 3px;
+		
+	}
+	.app-screen{width: 60%;}
+	
+	h3 {font-size: 80%;}
+	.inoc-small {margin-right: 1px;
+	width: 10px;}
+	
+	cite img {height: 30px;}
+	
+	.btn-app img {
+	height: 30px;
+	width: auto;
+	margin-right: 5px;
+		text-align: center;
+	}
+	h1 {font-size: 100%;
+	margin-top: 30px;}
+	.main-nav li {font-size: 70%; }
+	.btn {width: 40%;}
+	.plan-box div a {width: 100%;
+	height: auto;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
