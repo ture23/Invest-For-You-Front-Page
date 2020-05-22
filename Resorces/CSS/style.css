@@ -170,7 +170,16 @@ section{
 	margin-top: -2px;
 	margin-right: 10px;
 }
-
+ .js--wp-1 .box img  {
+    width: 50px;
+    height: 40px;
+     margin-top: 10%;
+     color: blue;
+}
+.link-img {
+    height: 40px;
+    width: 40px;
+}
 
 /*----------------------------------------------*/
 /*HEADINGS*/
@@ -284,6 +293,7 @@ input[type=submit]:active{
 	color: #fff;
 	
 }
+
 /*----------------------------------------------*/
 /*HEADER*/
 /*----------------------------------------------*/
@@ -495,11 +505,16 @@ header{/* postavljanje hedera pozadinska slika malo zatamnjena pozicioniranje sl
 /* HOW IT WORKS*/
 /*----------------------------------------------*/
 
-.span-1-of-4 img {
+.span-1-of-4 img{
 	width: 100%;
 	height: auto;
 	margin-bottom: 15px;
 	
+}
+.city-features img{
+    width: 20px;
+    margin-bottom: 0px;
+    
 }
 .span-1-of-3 {
 	display: inline-block;
